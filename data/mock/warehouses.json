@@ -1,0 +1,10 @@
+[
+  {"id":"WH-001","name":"Whitefield Distribution Center","lat":12.9698,"lng":77.7500,"zone":"East","capacity":500,"current_load":120,"type":"distribution"},
+  {"id":"WH-002","name":"Koramangala Micro Hub","lat":12.9352,"lng":77.6245,"zone":"South","capacity":400,"current_load":85,"type":"micro_hub"},
+  {"id":"WH-003","name":"Electronic City Warehouse","lat":12.8399,"lng":77.6770,"zone":"South-East","capacity":600,"current_load":200,"type":"warehouse"},
+  {"id":"WH-004","name":"Yeshwantpur Logistics Park","lat":13.0227,"lng":77.5500,"zone":"North","capacity":450,"current_load":150,"type":"logistics_park"},
+  {"id":"WH-005","name":"Jayanagar Collection Point","lat":12.9299,"lng":77.5838,"zone":"Central-South","capacity":350,"current_load":60,"type":"collection_point"},
+  {"id":"WH-006","name":"Hebbal Cross Dock","lat":13.0358,"lng":77.5970,"zone":"North","capacity":500,"current_load":175,"type":"cross_dock"},
+  {"id":"WH-007","name":"KR Puram Transit Hub","lat":13.0012,"lng":77.6960,"zone":"East","capacity":400,"current_load":90,"type":"transit_hub"},
+  {"id":"WH-008","name":"Majestic Central Hub","lat":12.9767,"lng":77.5713,"zone":"Central","capacity":800,"current_load":310,"type":"central_hub"}
+]

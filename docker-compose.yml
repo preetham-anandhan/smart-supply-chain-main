@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  # ── Node.js Backend ─────────────────────────────
+  server:
+    build:
+      context: ./server
+      dockerfile: ../infra/Dockerfile.server
+    ports:
+      - '5000:5000'
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - AI_ENGINE_URL=http://ai-engine:8000
+      - FRONTEND_URL=http://localhost:5173
+      - USE_IN_MEMORY_DB=true
+      - USE_IN_MEMORY_REDIS=true
+    volumes:
+      - ./shared:/app/shared
+      - ./data:/app/data
+    depends_on:
+      - ai-engine
+    networks:
+      - supply-chain
+
+  # ── Python AI Engine ────────────────────────────
+  ai-engine:
+    build:
+      context: ./ai-engine
+      dockerfile: ../infra/Dockerfile.ai
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./data:/app/data
+    networks:
+      - supply-chain
+
+  # ── React Frontend ──────────────────────────────
+  client:
+    build:
+      context: ./client
+      dockerfile: ../infra/Dockerfile.client
+    ports:
+      - '5173:5173'
+    depends_on:
+      - server
+    networks:
+      - supply-chain
+
+networks:
+  supply-chain:
+    driver: bridge

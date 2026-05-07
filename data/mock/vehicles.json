@@ -1,0 +1,10 @@
+[
+  {"id":"VEH-001","name":"Rapid Van Alpha","type":"van","capacity_kg":200,"current_lat":12.9352,"current_lng":77.6245,"fuel_level":85,"status":"available"},
+  {"id":"VEH-002","name":"Heavy Truck Beta","type":"truck","capacity_kg":1000,"current_lat":12.9767,"current_lng":77.5713,"fuel_level":72,"status":"available"},
+  {"id":"VEH-003","name":"Swift Bike Gamma","type":"bike","capacity_kg":10,"current_lat":13.0358,"current_lng":77.5970,"fuel_level":95,"status":"available"},
+  {"id":"VEH-004","name":"Express Van Delta","type":"van","capacity_kg":200,"current_lat":12.8399,"current_lng":77.6770,"fuel_level":60,"status":"available"},
+  {"id":"VEH-005","name":"Drone Eagle","type":"drone","capacity_kg":5,"current_lat":12.9698,"current_lng":77.7500,"fuel_level":100,"status":"available"},
+  {"id":"VEH-006","name":"Cargo Truck Zeta","type":"truck","capacity_kg":1000,"current_lat":13.0227,"current_lng":77.5500,"fuel_level":45,"status":"available"},
+  {"id":"VEH-007","name":"City Bike Eta","type":"bike","capacity_kg":10,"current_lat":12.9299,"current_lng":77.5838,"fuel_level":90,"status":"available"},
+  {"id":"VEH-008","name":"Metro Van Theta","type":"van","capacity_kg":200,"current_lat":13.0012,"current_lng":77.6960,"fuel_level":78,"status":"available"}
+]

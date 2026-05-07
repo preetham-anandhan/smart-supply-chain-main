@@ -1,0 +1,67 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.env.*
+.python-version
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+
+# Build output
+dist/
+build/
+bin/
+obj/
+coverage/
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+**/Dockerfile.*
+.dockerignore
+
+# Misc
+.env.local
+.env.test
+.env.production
+*.pem
+*.key
+npm-debug.log*
+yarn-debug.log*
+
+# Vite static cache
+node_modules/.vite/
+
+# Generated files
+*.lock
